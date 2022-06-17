@@ -1,0 +1,43 @@
+# flake8: noqa
+
+# import all models into this package
+# if you have many models here with many references from one model to another this may
+# raise a RecursionError
+# to avoid this, import only the models that you directly need like:
+# from from openapi_client.model.pet import Pet
+# or import this package, but before doing it, use:
+# import sys
+# sys.setrecursionlimit(n)
+
+from openapi_client.model.create_entity_request import CreateEntityRequest
+from openapi_client.model.create_registration_request import CreateRegistrationRequest
+from openapi_client.model.create_subscription_request import CreateSubscriptionRequest
+from openapi_client.model.get_attribute_data_response import GetAttributeDataResponse
+from openapi_client.model.get_attribute_value_response import GetAttributeValueResponse
+from openapi_client.model.list_entities_response import ListEntitiesResponse
+from openapi_client.model.list_entity_types_response import ListEntityTypesResponse
+from openapi_client.model.list_registrations_response import ListRegistrationsResponse
+from openapi_client.model.list_subscriptions_response import ListSubscriptionsResponse
+from openapi_client.model.notify_request import NotifyRequest
+from openapi_client.model.options import Options
+from openapi_client.model.options10 import Options10
+from openapi_client.model.options12 import Options12
+from openapi_client.model.options20 import Options20
+from openapi_client.model.options23 import Options23
+from openapi_client.model.options3 import Options3
+from openapi_client.model.options6 import Options6
+from openapi_client.model.query_request import QueryRequest
+from openapi_client.model.query_response import QueryResponse
+from openapi_client.model.replace_all_entity_attributes_request import ReplaceAllEntityAttributesRequest
+from openapi_client.model.retrieve_api_resources_response import RetrieveApiResourcesResponse
+from openapi_client.model.retrieve_entity_attributes_response import RetrieveEntityAttributesResponse
+from openapi_client.model.retrieve_entity_response import RetrieveEntityResponse
+from openapi_client.model.retrieve_entity_type_response import RetrieveEntityTypeResponse
+from openapi_client.model.retrieve_registration_response import RetrieveRegistrationResponse
+from openapi_client.model.update_attribute_data_request import UpdateAttributeDataRequest
+from openapi_client.model.update_attribute_value_request import UpdateAttributeValueRequest
+from openapi_client.model.update_existing_entity_attributes_request import UpdateExistingEntityAttributesRequest
+from openapi_client.model.update_or_append_entity_attributes_request import UpdateOrAppendEntityAttributesRequest
+from openapi_client.model.update_registration_request import UpdateRegistrationRequest
+from openapi_client.model.update_request import UpdateRequest
+from openapi_client.model.update_subscription_request import UpdateSubscriptionRequest
